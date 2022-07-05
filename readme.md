@@ -48,6 +48,8 @@ execute the following expression
  -10^9 < a, b < 10^9
 
 ## control_flow003
+
+
 Given 'a' an integer number.\
 execute the following expression
 
@@ -65,6 +67,108 @@ execute the following expression
 |52             |10               |
 |0              |0                |
 |120            |100              |
+
+**Constraints:** 
+
+ -10^9 < a, b < 10^9
+
+
+## control_flow004
+Given 'a' an integer number.\
+execute the following expression
+
+
+<img src="https://latex.codecogs.com/svg.image?\left\{\begin{matrix}z%3C999,%20\%20z=z-100\\z=0,\%20z=0%20\\z%3E999,%20\%20z=z+100\\\end{matrix}\right." />.
+ 
+
+**Example :**
+
+**Input**: *a (int)*.\
+**Output**: *Return answer (int)*.
+
+|   **Input**   |   **Output**    |
+|---------------|-----------------|
+|50             |-50              |
+|0              |0                |
+|1600           |1700             |
+
+**Constraints:** 
+
+ -10^9 < a, b < 10^9
+
+
+
+
+
+
+
+
+
+## control_flow005
+Given 'a' an integer number.\
+execute the following expression
+
+
+<img src="https://latex.codecogs.com/svg.image?\left\{\begin{matrix}z%3C150,%20\%20z=z-50\\z=0,\%20z=0%20\\z%3E999,%20\%20z=z+20\\\end{matrix}\right." />.
+ 
+
+**Example :**
+
+**Input**: *a (int)*.\
+**Output**: *Return answer (int)*.
+
+|   **Input**   |   **Output**    |
+|---------------|-----------------|
+|40             |-10              |
+|0              |0                |
+|1000           |1020             |
+
+**Constraints:** 
+
+ -10^9 < a, b < 10^9
+## control_flow006
+Given 'a' an integer number.\
+execute the following expression
+
+
+<img src="https://latex.codecogs.com/svg.image?\begin{Bmatrix}%200%3Cz%3C10%20%20z=5%20\\%20-10%3Cz%3C0%20z=-5%20\\%20%20else\%20z=0%20\\\end{Bmatrix}" />.
+ 
+
+**Example :**
+
+**Input**: *a (int)*.\
+**Output**: *Return answer (int)*.
+
+|   **Input**   |   **Output**    |
+|---------------|-----------------|
+|8              |5                |
+|0              |0                |
+|-55            |0                |
+|-3             |-5               |
+
+**Constraints:** 
+
+ -10^9 < a, b < 10^9
+ ## control_flow007
+Given 'a' an integer number.\
+execute the following expression
+
+
+<img src="https://latex.codecogs.com/svg.image?\begin{Bmatrix}%200%3Cz%3C10,\%20%20z=5%20\\%2010%3Cz%3C20,%20\%20z15\\%20%20-10%3Cz%3C0,\%20z=-5%20\\%20%20-20%3Cz%3C-10,\%20z=-15\\%20%20else\%20z=0%20\\\end{Bmatrix}" />.
+ 
+
+**Example :**
+
+**Input**: *a (int)*.\
+**Output**: *Return answer (int)*.
+
+|   **Input**   |   **Output**    |
+|---------------|-----------------|
+|18             |15               |
+|8              |5                |
+|0              |0                |
+|-18            |-15              |
+|-3             |-5               |
 
 **Constraints:** 
 
