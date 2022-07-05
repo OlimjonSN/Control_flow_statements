@@ -3,7 +3,7 @@
 # Problems
 
 ## control_flow001
-Given 'a' an integer number.\
+Given 'z' an integer number.\
 execute the following expression
 
 
@@ -12,7 +12,7 @@ execute the following expression
 
 **Example :**
 
-**Input**: *a (int)*.\
+**Input**: *z (int)*.\
 **Output**: *Return answer (int)*.
 
 |   **Input**   |   **Output**    |
@@ -23,9 +23,9 @@ execute the following expression
 
 **Constraints:** 
 
- -10^9 < a, b < 10^9
+ -10^9 < z, b < 10^9
 ## control_flow002
-Given 'a' an integer number.\
+Given 'z' an integer number.\
 execute the following expression
 
 
@@ -34,7 +34,7 @@ execute the following expression
 
 **Example :**
 
-**Input**: *a (int)*.\
+**Input**: *z (int)*.\
 **Output**: *Return answer (int)*.
 
 |   **Input**   |   **Output**    |
@@ -45,12 +45,12 @@ execute the following expression
 
 **Constraints:** 
 
- -10^9 < a, b < 10^9
+ -10^9 < z, b < 10^9
 
 ## control_flow003
 
 
-Given 'a' an integer number.\
+Given 'z' an integer number.\
 execute the following expression
 
 
@@ -59,7 +59,7 @@ execute the following expression
 
 **Example :**
 
-**Input**: *a (int)*.\
+**Input**: *z (int)*.\
 **Output**: *Return answer (int)*.
 
 |   **Input**   |   **Output**    |
@@ -70,11 +70,11 @@ execute the following expression
 
 **Constraints:** 
 
- -10^9 < a, b < 10^9
+ -10^9 < z, b < 10^9
 
 
 ## control_flow004
-Given 'a' an integer number.\
+Given 'z' an integer number.\
 execute the following expression
 
 
@@ -83,7 +83,7 @@ execute the following expression
 
 **Example :**
 
-**Input**: *a (int)*.\
+**Input**: *z (int)*.\
 **Output**: *Return answer (int)*.
 
 |   **Input**   |   **Output**    |
@@ -94,7 +94,7 @@ execute the following expression
 
 **Constraints:** 
 
- -10^9 < a, b < 10^9
+ -10^9 < z, b < 10^9
 
 
 
@@ -105,7 +105,7 @@ execute the following expression
 
 
 ## control_flow005
-Given 'a' an integer number.\
+Given 'z' an integer number.\
 execute the following expression
 
 
@@ -114,7 +114,7 @@ execute the following expression
 
 **Example :**
 
-**Input**: *a (int)*.\
+**Input**: *z (int)*.\
 **Output**: *Return answer (int)*.
 
 |   **Input**   |   **Output**    |
@@ -125,9 +125,9 @@ execute the following expression
 
 **Constraints:** 
 
- -10^9 < a, b < 10^9
+ -10^9 < z, b < 10^9
 ## control_flow006
-Given 'a' an integer number.\
+Given 'z' an integer number.\
 execute the following expression
 
 
@@ -136,7 +136,7 @@ execute the following expression
 
 **Example :**
 
-**Input**: *a (int)*.\
+**Input**: *z (int)*.\
 **Output**: *Return answer (int)*.
 
 |   **Input**   |   **Output**    |
@@ -148,9 +148,9 @@ execute the following expression
 
 **Constraints:** 
 
- -10^9 < a, b < 10^9
- ## control_flow007
-Given 'a' an integer number.\
+ -10^9 < z, b < 10^9
+## control_flow007
+Given 'z' an integer number.\
 execute the following expression
 
 
@@ -159,7 +159,7 @@ execute the following expression
 
 **Example :**
 
-**Input**: *a (int)*.\
+**Input**: *z (int)*.\
 **Output**: *Return answer (int)*.
 
 |   **Input**   |   **Output**    |
@@ -172,4 +172,26 @@ execute the following expression
 
 **Constraints:** 
 
- -10^9 < a, b < 10^9
+ -10^9 < z, b < 10^9
+## control_flow008
+Given 'z' and 'b' integers number.\
+execute the following expression
+
+
+<img src="https://latex.codecogs.com/svg.image?\begin{Bmatrix}%20b%3Cz,\%20%20z%20\\%20z%3Cb,%20\%20b\\%20\end{Bmatrix}" />.
+ 
+
+**Example :**
+
+**Input**: *z, *b (int)*.\
+**Output**: *Return answer (int)*.
+
+|   **Input**   |   **Output**    |
+|---------------|-----------------|
+|18 , 7         |18               |
+|8 ,7           |7                |
+
+
+**Constraints:** 
+
+ -10^9 < z, b < 10^9
