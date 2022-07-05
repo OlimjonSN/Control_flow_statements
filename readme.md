@@ -195,3 +195,47 @@ execute the following expression
 **Constraints:** 
 
  -10^9 < z, b < 10^9
+## control_flow009
+Given 'z' and 'b' integers number.\
+execute the following expression
+
+
+<img src="https://latex.codecogs.com/svg.image?\begin{Bmatrix}%20b%20-%20z%20%3Cz%20-%20b%20,\%20%20z%20\\%20z%20-%20b%20%3C%20b%20-%20z,%20\%20b\\%20\end{Bmatrix}" />.
+ 
+
+**Example :**
+
+**Input**: *z, *b (int)*.\
+**Output**: *Return answer (int)*.
+
+|   **Input**   |   **Output**    |
+|---------------|-----------------|
+|18 , 7         |18               |
+|8 ,17          |17               |
+
+
+**Constraints:** 
+
+ -10^9 < z, b < 10^9 
+## control_flow010
+Given 'z' and 'b' integers number.\
+execute the following expression
+
+
+<img src="https://latex.codecogs.com/svg.image?\begin{Bmatrix}%20b%20:%20z%20%3Cz%20:%20b%20,\%20%20z%20\\%20z%20:%20b%20%3C%20b%20:%20z,%20\%20b\\%20%20else%200\end{Bmatrix}" />.
+ 
+
+**Example :**
+
+**Input**: *z, *b (int)*.\
+**Output**: *Return answer (int)*.
+
+|   **Input**   |   **Output**    |
+|---------------|-----------------|
+|18 , 2         |18               |
+|2 ,18          |18               |
+
+
+**Constraints:** 
+
+ -10^9 < z, b < 10^9 
