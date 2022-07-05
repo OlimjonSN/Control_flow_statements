@@ -46,3 +46,26 @@ execute the following expression
 **Constraints:** 
 
  -10^9 < a, b < 10^9
+
+## control_flow003
+Given 'a' an integer number.\
+execute the following expression
+
+
+<img src="https://latex.codecogs.com/svg.image?\left\{\begin{matrix}z%3C99,%20\%20z=10\\z=0,\%20z=0%20\\z%3E99,%20\%20z=100\\\end{matrix}\right." />.
+ 
+
+**Example :**
+
+**Input**: *a (int)*.\
+**Output**: *Return answer (int)*.
+
+|   **Input**   |   **Output**    |
+|---------------|-----------------|
+|52             |10               |
+|0              |0                |
+|120            |100              |
+
+**Constraints:** 
+
+ -10^9 < a, b < 10^9
