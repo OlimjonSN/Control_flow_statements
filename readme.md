@@ -239,3 +239,26 @@ execute the following expression
 **Constraints:** 
 
  -10^9 < z, b < 10^9 
+## control_flow010
+Given 'z' integers number.\
+execute the following expression
+
+
+<img src="https://latex.codecogs.com/svg.image?\begin{Bmatrix}z\geqslant%2015,%20\%20z\\z\leqslant%20-15,%20\%20z+5\\else\%20z=0\end{Bmatrix}" />.
+ 
+
+**Example :**
+
+**Input**: *z, *b (int)*.\
+**Output**: *Return answer (int)*.
+
+|   **Input**   |   **Output**    |
+|---------------|-----------------|
+|18             |18               |
+|2              |7                |
+
+
+**Constraints:** 
+
+ -10^9 < z, b < 10^9 
+  
