@@ -239,7 +239,7 @@ execute the following expression
 **Constraints:** 
 
  -10^9 < z, b < 10^9 
-## control_flow010
+## control_flow011
 Given 'z' integers number.\
 execute the following expression
 
@@ -261,4 +261,100 @@ execute the following expression
 **Constraints:** 
 
  -10^9 < z, b < 10^9 
-  
+## control_flow012
+
+Given 'z' and 'b' integers number.\
+execute the following expression
+
+
+<img src="https://latex.codecogs.com/svg.image?\begin{Bmatrix}z\geqslant%2010,\%20or\%20z\leqslant%2099%20%20%20\%20z+10\\b\geqslant%20100,\%20or\%20b\leqslant%20999%20%20\%20b%20-%2010\\else\%200\end{Bmatrix}" />.
+ 
+
+**Example :**
+
+**Input**: *z, *b (int)*.\
+**Output**: *Return answer (int)*.
+
+|   **Input**   |   **Output**    |
+|---------------|-----------------|
+|18             |28               |
+|122            |112              |
+|7              |0                |
+
+
+**Constraints:** 
+
+ -10^9 < z, b < 10^9 
+## control_flow013
+Given 'z' and 'b' integers number.\
+execute the following expression
+
+
+<img src="https://latex.codecogs.com/svg.image?\begin{Bmatrix}z\geqslant%2010,\%20or\%20z\leqslant%2099\%20and\%20%20is\%20even%20%20%20\%20z+10\\b\geqslant%20100,\%20or%20\%20b\leqslant%20999\%20and\%20%20is\%20even%20\%20b%20-%2010\\else\%200\end{Bmatrix}" />.
+ 
+
+**Example :**
+
+**Input**: *z, *b (int)*.\
+**Output**: *Return answer (int)*.
+
+|   **Input**   |   **Output**    |
+|---------------|-----------------|
+|18             |28               |
+|19             |0                |
+|122            |112              |
+|123            |0                |
+|7              |0                |
+
+
+**Constraints:** 
+
+ -10^9 < z, b < 10^9 
+## control_flow014
+Given 'z' and 'b' integers number.\
+execute the following expression
+
+
+<img src="https://latex.codecogs.com/svg.image?\begin{Bmatrix}z\geqslant%2010,\%20or\%20z\leqslant%2099\%20and\%20%20is\%20odd%20%20%20\%20z+10\\b\geqslant%20100,\%20or%20\%20b\leqslant%20999\%20and\%20%20is\%20odd%20\%20b%20-%2010\\else\%200\end{Bmatrix}" />.
+ 
+
+**Example :**
+
+**Input**: *z, *b (int)*.\
+**Output**: *Return answer (int)*.
+
+|   **Input**   |   **Output**    |
+|---------------|-----------------|
+|18             |0                |
+|19             |29               |
+|122            |0                |
+|123            |113              |
+|7              |0                |
+
+
+**Constraints:** 
+
+ -10^9 < z, b < 10^9
+## control_flow015  
+Given 'z' and 'b' integers number.\
+execute the following expression
+
+
+<img src="https://latex.codecogs.com/svg.image?\begin{Bmatrix}z\geqslant%2010,\%20or\%20z\leqslant%2099\%20and\%20%20is\%20odd%20%20%20\%20z+10\\b\geqslant%20100,\%20or%20\%20b\leqslant%20999\%20and\%20%20is\%20odd%20\%20b%20-%2010\\else\%200\end{Bmatrix}" />.
+ 
+
+**Example :**
+
+**Input**: *z, *b (int)*.\
+**Output**: *Return answer (int)*.
+
+|   **Input**   |   **Output**    |
+|---------------|-----------------|
+|12,13          |22               |
+|13,12          |2                |
+|7              |0                |
+
+
+**Constraints:** 
+
+ -10^9 < z, b < 10^9
